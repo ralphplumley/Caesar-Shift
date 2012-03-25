@@ -1,4 +1,12 @@
 // Caesar Shift, in C.
+// Program parameters: # to shift, "String to shift"
+// Ex:
+//		./CaesarShift.c 5 "Cow Goes Moo!"
+//		returns:     Ht|%Ltjx%Rtt
+		
+// Then you can run the reverse ....
+//		./CaesarShift.c -5 "Ht|%Ltjx%Rtt"
+//		returns:     Cow Goes Moo!
 
 #include <stdio.h>
 #include <stdlib.h>
